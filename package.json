@@ -1,0 +1,22 @@
+{
+  "name": "sistema-ventas",
+  "version": "1.0.0",
+  "description": "Sistema de ventas con Node.js, Express y SQL Server Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["ventas", "nodejs", "express", "sql-server"],
+  "author": "Proyecto académico",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

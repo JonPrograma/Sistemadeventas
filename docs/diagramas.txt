@@ -1,0 +1,25 @@
+DIAGRAMA ERD
+
+CATEGORIAS 1:N PRODUCTOS
+VENDEDORES 1:N PEDIDOS
+PEDIDOS 1:N DETALLE_PEDIDO
+PRODUCTOS 1:N DETALLE_PEDIDO
+
+
+ARQUITECTURA
+
+CLIENTE (Navegador)
+        |
+     HTTP/JSON
+        v
+REST API - Express
+        |
+  +-----+------+------+
+  |            |      |
+Vendedores  Productos Pedidos
+  |            |      |
+  +------------+------+
+             |
+          mssql
+             |
+        SQL Server
