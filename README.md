@@ -53,15 +53,3 @@ API:
 }
 ```
 
-## GitHub
-
-```bash
-git init
-git add .
-git commit -m "Configuración inicial del sistema de ventas"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/sistema-ventas.git
-git push -u origin main
-```
-
-No subir `.env` ni contraseñas al repositorio.
